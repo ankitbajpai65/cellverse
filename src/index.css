@@ -8,13 +8,6 @@
   box-sizing: border-box;
 }
 
-.custom-background {
-  background-image: url("/path-to-image1.png"), url("/path-to-image2.png");
-  background-size: 48% 100%, 48% 100%;
-  background-position: right, right 20px; /* Adjust to overlap as needed */
-  background-repeat: no-repeat, no-repeat;
-}
-
 .custom-placeholder::placeholder {
   @apply text-black;
 }

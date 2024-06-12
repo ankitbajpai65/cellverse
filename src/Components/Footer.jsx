@@ -46,10 +46,10 @@ const Footer = () => {
           <input
             type="text"
             placeholder="Email"
-            className="w-full md:w-10/12 bg-white py-2 px-5 my-3 rounded-lg"
+            className="w-full bg-white py-2 px-5 my-3 rounded-lg"
           />
-          <button className="bg-button py-2 px-6 rounded-lg">Subscribe</button>
-          <div className="mt-6 flex justify-center md:justify-start gap-4">
+          <button className="bg-button py-2 px-6 rounded-lg float-end">Subscribe</button>
+          <div className="mt-20 flex justify-center md:justify-start gap-4">
             <AiOutlineLinkedin size={25} className="text-icons" />
             <RiInstagramLine size={25} className="text-icons" />
             <FaFacebook size={25} className="text-icons" />
