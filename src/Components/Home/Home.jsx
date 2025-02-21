@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import Contact from "./Contact";
-import Faq from "./Faq";
+// import Faq from "./Faq";
 import News from "./News";
 import Vision from "./Vision";
 
@@ -55,7 +55,7 @@ const Home = () => {
         <Vision />
       </div>
       <News />
-      <Faq />
+      {/* <Faq /> */}
       <Contact />
     </>
   );
